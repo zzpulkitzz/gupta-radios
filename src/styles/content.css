@@ -1,0 +1,81 @@
+.content {
+  flex: 1;
+  padding: 2.5rem 3.75rem;
+  margin-left: 260px; /* Match sidebar width */
+  max-width: 1200px;
+  width: 100%;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section h2 {
+  color: #1e293b;
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.section h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background: #39A3E6;
+  border-radius: 2px;
+}
+
+.section p {
+  color: #475569;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 800px;
+}
+
+/* Animation for content transitions */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .content {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin-left: 0;
+    padding: 1.5rem;
+    padding-top: 2rem;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .section p {
+    font-size: 1rem;
+  }
+}
+
+/* Ensure proper spacing when sidebar is hidden on mobile */
+@media (min-width: 769px) {
+  .content {
+    margin-left: 260px;
+  }
+}

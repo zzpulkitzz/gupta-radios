@@ -1,0 +1,18 @@
+@import './styles/theme.css';
+@import './styles/layout.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
