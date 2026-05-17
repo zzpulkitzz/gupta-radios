@@ -95,6 +95,6 @@ const styles = {
     marginRight: '16px',
   },
   brandContainer: { display: 'flex', alignItems: 'center', gap: '12px' },
-  logo: { height: '40px', width: 'auto', objectFit: 'contain' },
+  logo: { height: '48px', width: 'auto', objectFit: 'contain', borderRadius: '6px' },
   title: { fontSize: '20px', margin: 0 },
 }

@@ -196,7 +196,7 @@ const styles = {
     flexWrap: 'wrap', gap: '8px',
   },
   brand: { display: 'flex', alignItems: 'center', gap: '10px' },
-  logo: { height: '36px', width: 'auto' },
+  logo: { height: '44px', width: 'auto', borderRadius: '4px' },
   siteName: { fontWeight: 700, fontSize: '16px', color: '#1e293b', display: 'block' },
   portalBadge: {
     fontSize: '11px', background: '#eef7fd', color: '#39A3E6',

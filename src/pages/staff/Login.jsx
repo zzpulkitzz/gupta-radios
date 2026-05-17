@@ -95,7 +95,7 @@ const styles = {
     gap: '12px',
     marginBottom: '2rem',
   },
-  logo: { height: '48px', width: 'auto', objectFit: 'contain' },
+  logo: { height: '48px', width: 'auto', objectFit: 'contain', borderRadius: '6px' },
   title: { fontSize: '20px', fontWeight: 700, margin: 0, color: '#1e293b' },
   subtitle: { fontSize: '13px', color: '#64748b', margin: 0, marginTop: '2px' },
   form: { display: 'flex', flexDirection: 'column', gap: '6px' },
